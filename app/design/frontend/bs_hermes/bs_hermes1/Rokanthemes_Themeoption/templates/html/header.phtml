@@ -1,0 +1,82 @@
+<script type="text/javascript">
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 100) {
+            $('.header').addClass('fixedbg');  
+        } else {
+            $('.header').removeClass('fixedbg');
+        }
+    });
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '186144185197409'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=186144185197409&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<div class="shipping-notice">
+<i class="fa fa-truck" aria-hidden="true"></i><b>
+FREE SHIPPING WORLDWIDE + HASSLE FREE RETURNS</b><i class="fa fa-times close-shipping-notice" aria-hidden="true"></i>
+</div>
+
+<div class="header-container">
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-3 col-xs-7 col-logo">
+
+                    <?php echo $this->getChildHtml("logo"); ?>
+
+                </div>
+
+                <div class="col-md-9 col-sm-9 col-xs-5 col-menu">
+
+                    <?php echo $this->getChildHtml("top.navigation.sections"); ?>				
+
+                    <?php echo $this->getChildHtml("minicart"); ?>
+
+                    <?php echo $this->getChildHtml("top.search"); ?>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    </div>
+    <script>
+    require([
+
+        'jquery'
+
+    ], function ($) {
+           var shipclose = localStorage['shipclose'];
+if (!shipclose) {
+$(".shipping-notice").css("display","block");
+if($( window ).width()>700){
+ $(".header-container").css("margin-top","50px");
+}}
+
+       $(".close-shipping-notice").click(function(){
+           localStorage['shipclose'] = "yes";
+       $(".shipping-notice").css("display","none");
+       $(".header-container").css("margin-top","0");
+       });
+        });
+
+</script>

@@ -1,0 +1,8 @@
+{
+    "readiness_checks": {
+        "error": "<br/>Found non-writable path(s):<br/>/home/megaceut/public_html/newtype/pub/.htaccess<br/>/home/megaceut/public_html/newtype/pub/media/.htaccess",
+        "file_permissions_verified": false
+    },
+    "last_timestamp": 1491649564,
+    "current_timestamp": 1491649622
+}

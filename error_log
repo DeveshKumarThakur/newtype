@@ -1,0 +1,1 @@
+[08-Apr-2017 04:39:09 UTC] PHP Fatal error:  Call to a member function getTypeId() on boolean in /home/megaceut/public_html/newtype/app/code/Rokanthemes/QuickView/Controller/Product/Quickview.php on line 19

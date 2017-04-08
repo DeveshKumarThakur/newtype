@@ -1,0 +1,39 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488443118;s:6:"expire";i:1488446718;s:4:"tags";s:162:"4db_BLOCK_HTML,4db_CATALOG_PRODUCT_31,4db_CATALOG_PRODUCT,4db_CATALOG_PRODUCT_135,4db_CATALOG_PRODUCT_136,4db_CATALOG_PRODUCT_137,4db_CATALOG_PRODUCT_138,4db_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute90">
+                <span>Color</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[90]"
+                        data-selector="super_attribute[90]"
+                        data-validate="{required:true}"
+                        id="attribute90"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+            <div class="field configurable required">
+            <label class="label" for="attribute154">
+                <span>Female Size</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[154]"
+                        data-selector="super_attribute[154]"
+                        data-validate="{required:true}"
+                        id="attribute154"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"90":{"id":"90","code":"color","label":"Color","options":[{"id":"4","label":"Black","products":["135","136","137","138"]}],"position":"0"},"154":{"id":"154","code":"female_size","label":"Female Size","options":[{"id":"30","label":"XS","products":["135"]},{"id":"31","label":"S","products":["136"]},{"id":"32","label":"M","products":["137"]},{"id":"33","label":"L","products":["138"]}],"position":"1"}},"template":"$<%- data.price %>","optionPrices":{"135":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"136":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"137":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"138":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}}},"prices":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"productId":"31","chooseText":"Choose an Option...","images":{"135":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/l\/e\/legging2front_medium__4.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__4.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__4.jpg","caption":"","position":"1","isMain":false}],"136":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/l\/e\/legging2front_medium__1_2.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__1_2.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__1_2.jpg","caption":"","position":"1","isMain":false}],"137":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/l\/e\/legging2front_medium__2_1.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__2_1.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__2_1.jpg","caption":"","position":"1","isMain":false}],"138":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/l\/e\/legging2front_medium__3_1.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__3_1.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/l\/e\/legging2front_medium__3_1.jpg","caption":"","position":"1","isMain":false}]},"index":{"135":{"90":"4","154":"30"},"136":{"90":"4","154":"31"},"137":{"90":"4","154":"32"},"138":{"90":"4","154":"33"}}},
+                    "onlyMainImg": false                }
+            }
+        }
+    </script>

@@ -1,0 +1,54 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+if($banners = $block->getBannerCollection()):
+	$slider = $block->getSlider();
+	$sliderId = $block->getSliderId(); 
+?>
+<div class="wrapper_slider slider_<?php echo $sliderId; ?>">
+	<div class="owl">
+		<?php foreach($banners as $i=>$banner){	?>
+            <?php $link = $banner->getSlideLink()?>
+           <div class="banner_item">
+                            <div class="hero-content " style="/*! background-color: red; */margin-top: 24%;position: absolute;margin-left: <?php echo ($i==1)? '5':'38'?>%;/*! background-color: black; */opacity: 0.8;padding: 10 10 10 10;font-size: 21px;">
+                            <h1><?php echo ($i==1)? 'NEW FOR WOMEN':'SHOP MENS NOW'?></h1><p></p>
+                            <a class="" href="<?php echo $link; ?>">
+                                <?php echo ($i==1)? 'View Collection':'View Intrepid Collection'?></a></div>
+        
+        			<?php
+			$html = $block->getImageElement($banner->getSlideImage());
+			if($link)
+				$html = '<a href="'. $link .'">' . $html . '</a>' ; 
+			echo $html;
+                        
+			?>
+                        
+			</div>
+		<?php } ?>
+	</div>
+</div>
+<script>
+	require([
+		'jquery',
+		'mage/mage',
+		'rokanthemes/owl'
+	], function ($) {
+		'use strict';
+
+		jQuery(".slider_<?php echo $sliderId; ?> .owl").owlCarousel(
+			{<?php foreach($slider->getSliderSetting() as $key=>$value)
+				{
+					if(in_array($key, array('autoPlay', 'navigation', 'stopOnHover', 'pagination', 'scrollPerPage'))){
+						$value == 0 ? $value = 'false': '';
+						$value == 1 ? $value = 'true': '';
+					}
+					echo $key . ':' . $value . ',';
+				} ?>}
+		);
+	});
+</script>
+<?php endif; ?>

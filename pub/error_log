@@ -1,0 +1,4 @@
+[15-Jan-2017 10:21:36 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/megaceut/public_html/newtype/vendor/magento/framework/Code/Generator/EntityAbstract.php on line 152
+[15-Jan-2017 10:21:36 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/megaceut/public_html/newtype/vendor/magento/framework/Autoload/ClassLoaderWrapper.php on line 81
+[15-Jan-2017 10:21:36 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/megaceut/public_html/newtype/vendor/composer/ClassLoader.php on line 317
+[15-Jan-2017 10:21:36 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/megaceut/public_html/newtype/vendor/composer/ClassLoader.php on line 349

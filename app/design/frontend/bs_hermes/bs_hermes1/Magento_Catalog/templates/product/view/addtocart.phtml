@@ -1,0 +1,370 @@
+<?php
+
+/**
+
+ * Copyright © 2015 Magento. All rights reserved.
+
+ * See COPYING.txt for license details.
+
+ */
+
+
+
+// @codingStandardsIgnoreFile
+
+
+
+/** @var $block \Magento\Catalog\Block\Product\View */
+
+?>
+
+<?php $_product = $block->getProduct(); ?>
+
+<?php $buttonTitle = __('Add to Cart'); ?>
+
+<?php if ($_product->isSaleable()): ?>
+<div class="CustomSizeChart" style="margin-top: 17px;margin-bottom: -24px;"><a style="color:#938454;font-weight:bold"> SIZE GUIDE </a></div>
+  
+<div class="box-tocart">
+    <div class="fieldset">
+
+        <?php if ($block->shouldRenderQuantity()): ?>
+
+        <div class="field qty">
+
+            <label class="label" for="qty"><span><?php /* @escapeNotVerified */ echo __('Qantity :') ?></span></label>
+
+            <div class="control">
+
+                <input type="number"
+
+                       name="qty"
+
+                       id="qty"
+
+                       maxlength="12"
+
+                       value="<?php /* @escapeNotVerified */ echo $block->getProductDefaultQty() * 1 ?>"
+
+                       title="<?php /* @escapeNotVerified */ echo __('Qantity') ?>" class="input-text qty"
+
+                       data-validate="<?php echo $block->escapeHtml(json_encode($block->getQuantityValidators())) ?>"
+
+                       />
+
+            </div>
+
+        </div>
+
+        <?php endif; ?>
+
+        <div class="actions">
+
+            <button type="submit"
+
+                    title="<?php /* @escapeNotVerified */ echo $buttonTitle ?>"
+
+                    class="action primary tocart"
+
+                    id="product-addtocart-button">
+
+                <span><?php /* @escapeNotVerified */ echo $buttonTitle ?></span>
+
+            </button>
+
+            <?php echo $block->getChildHtml('', true) ?>
+
+        </div>
+
+    </div>
+
+</div>
+
+<?php endif; ?>
+
+<?php if ($block->isRedirectToCartEnabled()) : ?>
+
+<script type="text/x-magento-init">
+
+    {
+
+        "#product_addtocart_form": {
+
+            "Magento_Catalog/product/view/validation": {
+
+                "radioCheckboxClosest": ".nested"
+
+            }
+
+        }
+
+    }
+
+</script>
+
+<?php else : ?>
+
+<script>
+
+    require([
+
+        'jquery',
+
+        'mage/mage',
+
+        'Magento_Catalog/product/view/validation',
+
+        'Magento_Catalog/js/catalog-add-to-cart'
+
+    ], function ($) {
+
+        'use strict';
+
+
+
+        $('#product_addtocart_form').mage('validation', {
+
+            radioCheckboxClosest: '.nested',
+
+            submitHandler: function (form) {
+
+                var widget = $(form).catalogAddToCart({
+
+                    bindSubmit: false
+
+                });
+
+
+
+                widget.catalogAddToCart('submitForm', $(form));
+
+
+
+                return false;
+
+            }
+
+        });
+
+    });
+
+</script>
+
+<?php endif; ?>
+
+<div class="CustomSizePopup">
+	<div class="CustomSizePopupSection">
+		<div class="inner-container row">
+				<div class="modal-close" for="size-chart-modal">
+					X
+				</div>
+				<div class="page-title">
+				  <h1>Sizing Help</h1>
+				  <p>Our guide for the perfect fit</p>
+				</div>
+				
+		
+			<div class="size-chart-content">
+				<div class="inner-container row">
+					<h2 class="section-heading">Sizing Charts</h2>
+					
+					<div class="unit-gender">
+						<section class="toggle-unit">
+							<a class="CustomFemale CustomGender Active" href="javascript:void(0);">Female </a>|<a class="CustomMale CustomGender" href="javascript:void(0);">Male</a>
+						</section>
+					</div>
+					
+					<div class="all-size-chart">
+						<div class="toggle-elem women men">
+						<div class="toggle-elem tops bottoms">
+							<div class="conversion">
+								<div class="size-chart-wrapper FemaleSizeChart" style="height: 392px;">
+									<div class="size-chart-outer">
+										<div class="size-chart-scroll" style="height: 392px; width: 100%;">
+										
+<table class="size-chart">
+  <tr>
+    <th colspan="2" rowspan="2">AU/UK</th>
+    <th>US</th>
+    <th colspan="2">BUST</th>
+    <th colspan="2">WAIST</th>
+    <th colspan="2">HIP</th>
+  </tr>
+  <tr>
+    <td>AUS</td>
+    <td>CM</td>
+    <td>IN</td>
+    <td>CM</td>
+    <td>IN</td>
+    <td>CM</td>
+    <td>IN</td>
+  </tr>
+  <tr>
+    <td colspan="2">XS</td>
+    <td>6</td>
+    <td>78-84</td>
+    <td>31-33</td>
+    <td>69-75</td>
+    <td>27-29</td>
+    <td>83-89</td>
+    <td>33-35</td>
+  </tr>
+  <tr>
+    <td colspan="2">S</td>
+    <td>8</td>
+    <td>85-91</td>
+    <td>34-36</td>
+    <td>76-82</td>
+    <td>30-32</td>
+    <td>90-96</td>
+    <td>36-38</td>
+  </tr>
+  <tr>
+    <td colspan="2">M</td>
+    <td>10</td>
+    <td>92-98</td>
+    <td>37-39</td>
+    <td>83-89</td>
+    <td>33-35</td>
+    <td>97-103</td>
+    <td>39-41</td>
+  </tr>
+  <tr>
+    <td colspan="2">L</td>
+    <td>12</td>
+    <td>99-105</td>
+    <td>40-42</td>
+    <td>90-96</td>
+    <td>36-38</td>
+    <td>104-110</td>
+    <td>42-44</td>
+  </tr>
+  <tr>
+    <td colspan="2">XL</td>
+    <td>14</td>
+    <td>106-112</td>
+    <td>43-45</td>
+    <td>97-103</td>
+    <td>39-41</td>
+    <td>111-117</td>
+    <td>45-47</td>
+  </tr>
+</table>
+											
+											
+										</div>
+									</div>							
+								</div>
+								
+								<div class="size-chart-wrapper MaleSizeChart" style="height: 392px;">
+									<div class="size-chart-outer">
+										<div class="size-chart-scroll" style="height: 392px; width: 100%;">
+										
+<table class="size-chart">
+  <tr>
+    <th colspan="2" rowspan="2">AU/UK/US</th>
+    <th colspan="2">CHEST</th>
+    <th colspan="2">WAIST</th>
+    <th colspan="2">HIP</th>
+  </tr>
+  <tr>
+    <td>CM</td>
+    <td>IN</td>
+    <td>CM</td>
+    <td>IN</td>
+    <td>CM</td>
+    <td>IN</td>
+  </tr>
+  <tr>
+    <td colspan="2">XS</td>
+    <td>79-86</td>
+    <td>31-33</td>
+    <td>73-78</td>
+    <td>28-30</td>
+    <td>91-97</td>
+    <td>36-38</td>
+  </tr>
+  <tr>
+    <td colspan="2">S</td>
+    <td>87-94</td>
+    <td>34-36</td>
+    <td>79-84</td>
+    <td>31-33</td>
+    <td>98-104</td>
+    <td>39-41</td>
+  </tr>
+  <tr>
+    <td colspan="2">M</td>
+    <td>95-102</td>
+    <td>37-39</td>
+    <td>85-90</td>
+    <td>34-36</td>
+    <td>105-111</td>
+    <td>42-44</td>
+  </tr>
+  <tr>
+    <td colspan="2">L</td>
+    <td>103-110</td>
+    <td>40-42</td>
+    <td>91-97</td>
+    <td>37-39</td>
+    <td>112-118</td>
+    <td>45-47</td>
+  </tr>
+  <tr>
+    <td colspan="2">XL</td>
+    <td>111-118</td>
+    <td>43-45</td>
+    <td>98-104</td>
+    <td>40-42</td>
+    <td>119-125</td>
+    <td>48-50</td>
+  </tr>
+</table>
+
+										</div>
+									</div>							
+								</div>
+						</div><!--//-->
+					</div><!--//-->
+									</div>
+		</div>
+	</div>
+</div>
+<script>
+
+    require([
+
+        'jquery'
+
+    ], function ($) {
+
+        'use strict';
+
+$(".CustomSizeChart").click(function(){
+			$(".CustomSizePopup").css("display","block");
+			$(".CustomSizePopup").css("display","block");
+		});
+		
+		$(".modal-close").click(function(){
+			$(".CustomSizePopup").css("display","none");
+		});
+		
+		$(".CustomMale").click(function(){
+			$(".CustomGender").removeClass("Active");
+			$(this).addClass("Active");
+			$(".FemaleSizeChart").css("display","none");			
+			$(".MaleSizeChart").css("display","block");
+		});	
+		
+		$(".CustomFemale").click(function(){
+			$(".CustomGender").removeClass("Active");
+			$(this).addClass("Active");
+			$(".MaleSizeChart").css("display","none");
+			$(".FemaleSizeChart").css("display","block");			
+
+		});
+
+    });
+
+</script>

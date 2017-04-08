@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+		<referenceContainer name="content">
+			<container name="catalog.product.view" htmlTag="div" htmlClass="product-view" before="-">
+				<container name="product.row" htmlTag="div" htmlClass="view-product" before="-">
+					<container name="product.col.left" htmlTag="div" htmlClass="container">
+						<container name="product.row.child" htmlTag="div" htmlClass="row">
+							<container name="product.col.media" htmlTag="div" htmlClass="col-md-5 col-sm-5 col-xs-12" before="-"/>
+							<container name="product.col.info" htmlTag="div" htmlClass="col-md-7 col-sm-7 col-xs-12"/>
+						</container>
+					</container>
+				</container>
+			</container>
+		</referenceContainer>
+        <move element="page.main.title" destination="product.info.main" before="-"/>
+        <move element="product.info.stock.sku" destination="product.info.price" after="product.price.final"/>
+        <move element="product.info.review" destination="product.info.main" before="product.info.price"/>
+        <move element="product.info.overview" destination="product.info.main" before="product.info.review"/>
+        <move element="product.info.main" destination="product.col.info" before="-"/>
+        <move element="product.info.media" destination="product.col.media" before="-"/>
+    </body>
+</page>

@@ -1,0 +1,38 @@
+<div class="top-content-home">
+	<div class="banner-top-home">
+		<div class="container">
+			<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('home5_banner_top')->toHtml();?>
+		</div>
+	</div>
+	<div class="box-category-tab">
+		<div class="container">
+			<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('category_slider')->toHtml();?>
+		</div>
+	</div>
+	
+	<div class="box-banner-middle">
+		<div class="container">
+			<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('home5_banner_center')->toHtml();?>
+		</div>
+	</div>
+	<div class="box-category-tab">
+		<div class="container">
+			<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('category_slider')->toHtml();?>
+		</div>
+	</div>
+	<div class="testimonial">
+		<div class="container">
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('testimonial')->toHtml(); ?>
+		</div>
+	</div>
+	<div class="group-product">
+		<div class="container">
+			<?php echo $block->getLayout()->createBlock('Rokanthemes\Featuredpro\Block\Featured')->setTemplate('Rokanthemes_Featuredpro::featured.phtml')->toHtml();?> 
+		</div>
+	</div>
+	<div class="box-blog">
+		<div class="container">
+			<?php echo $block->getLayout()->createBlock('Rokanthemes\Blog\Block\Sidebar\Recent')->setTemplate('Rokanthemes_Blog::sidebar/slider.phtml')->toHtml();?>
+		</div>
+	</div>	
+</div>

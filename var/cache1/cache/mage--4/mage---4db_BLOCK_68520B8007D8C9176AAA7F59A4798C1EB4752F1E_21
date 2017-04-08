@@ -1,0 +1,39 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488534785;s:6:"expire";i:1488538385;s:4:"tags";s:162:"4db_BLOCK_HTML,4db_CATALOG_PRODUCT_21,4db_CATALOG_PRODUCT,4db_CATALOG_PRODUCT_127,4db_CATALOG_PRODUCT_128,4db_CATALOG_PRODUCT_129,4db_CATALOG_PRODUCT_130,4db_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute90">
+                <span>Color</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[90]"
+                        data-selector="super_attribute[90]"
+                        data-validate="{required:true}"
+                        id="attribute90"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+            <div class="field configurable required">
+            <label class="label" for="attribute153">
+                <span>Male Size</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[153]"
+                        data-selector="super_attribute[153]"
+                        data-validate="{required:true}"
+                        id="attribute153"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"90":{"id":"90","code":"color","label":"Color","options":[{"id":"4","label":"Black","products":["127","128","129","130"]}],"position":"0"},"153":{"id":"153","code":"male_size","label":"Male Size","options":[{"id":"25","label":"S","products":["127"]},{"id":"26","label":"M","products":["128"]},{"id":"27","label":"L","products":["129"]},{"id":"28","label":"XL","products":["130"]}],"position":"1"}},"template":"$<%- data.price %>","optionPrices":{"127":{"oldPrice":{"amount":"34.95"},"basePrice":{"amount":"34.95"},"finalPrice":{"amount":"34.95"}},"128":{"oldPrice":{"amount":"34.95"},"basePrice":{"amount":"34.95"},"finalPrice":{"amount":"34.95"}},"129":{"oldPrice":{"amount":"34.95"},"basePrice":{"amount":"34.95"},"finalPrice":{"amount":"34.95"}},"130":{"oldPrice":{"amount":"34.95"},"basePrice":{"amount":"34.95"},"finalPrice":{"amount":"34.95"}}},"prices":{"oldPrice":{"amount":"34.95"},"basePrice":{"amount":"34.95"},"finalPrice":{"amount":"34.95"}},"productId":"21","chooseText":"Choose an Option...","images":{"127":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/m\/a\/maletop-front_medium__5.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__5.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__5.jpg","caption":"","position":"1","isMain":true}],"128":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/m\/a\/maletop-front_medium__1_2.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__1_2.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__1_2.jpg","caption":"","position":"1","isMain":true}],"129":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/m\/a\/maletop-front_medium__2_1.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__2_1.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__2_1.jpg","caption":"","position":"1","isMain":true}],"130":[{"thumb":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/m\/a\/maletop-front_medium__3_1.jpg","img":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__3_1.jpg","full":"https:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/m\/a\/maletop-front_medium__3_1.jpg","caption":"","position":"1","isMain":true}]},"index":{"127":{"90":"4","153":"25"},"128":{"90":"4","153":"26"},"129":{"90":"4","153":"27"},"130":{"90":"4","153":"28"}}},
+                    "onlyMainImg": false                }
+            }
+        }
+    </script>

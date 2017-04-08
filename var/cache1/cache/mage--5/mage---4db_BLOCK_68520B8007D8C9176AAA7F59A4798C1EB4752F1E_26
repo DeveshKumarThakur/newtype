@@ -1,0 +1,39 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488527958;s:6:"expire";i:1488531558;s:4:"tags";s:162:"4db_BLOCK_HTML,4db_CATALOG_PRODUCT_26,4db_CATALOG_PRODUCT,4db_CATALOG_PRODUCT_131,4db_CATALOG_PRODUCT_132,4db_CATALOG_PRODUCT_133,4db_CATALOG_PRODUCT_134,4db_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute90">
+                <span>Color</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[90]"
+                        data-selector="super_attribute[90]"
+                        data-validate="{required:true}"
+                        id="attribute90"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+            <div class="field configurable required">
+            <label class="label" for="attribute154">
+                <span>Female Size</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[154]"
+                        data-selector="super_attribute[154]"
+                        data-validate="{required:true}"
+                        id="attribute154"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"90":{"id":"90","code":"color","label":"Color","options":[{"id":"4","label":"Black","products":["131","132","133","134"]}],"position":"0"},"154":{"id":"154","code":"female_size","label":"Female Size","options":[{"id":"30","label":"XS","products":["131"]},{"id":"31","label":"S","products":["132"]},{"id":"32","label":"M","products":["133"]},{"id":"33","label":"L","products":["134"]}],"position":"1"}},"template":"$<%- data.price %>","optionPrices":{"131":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"132":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"133":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"134":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}}},"prices":{"oldPrice":{"amount":"79.95"},"basePrice":{"amount":"79.95"},"finalPrice":{"amount":"79.95"}},"productId":"26","chooseText":"Choose an Option...","images":{"131":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/f\/pfront1_medium__4.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__4.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__4.jpg","caption":"","position":"1","isMain":false}],"132":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/f\/pfront1_medium__1_2.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__1_2.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__1_2.jpg","caption":"","position":"1","isMain":false}],"133":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/f\/pfront1_medium__2_1.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__2_1.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__2_1.jpg","caption":"","position":"1","isMain":false}],"134":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/f\/pfront1_medium__3_1.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__3_1.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/f\/pfront1_medium__3_1.jpg","caption":"","position":"1","isMain":false}]},"index":{"131":{"90":"4","154":"30"},"132":{"90":"4","154":"31"},"133":{"90":"4","154":"32"},"134":{"90":"4","154":"33"}}},
+                    "onlyMainImg": false                }
+            }
+        }
+    </script>

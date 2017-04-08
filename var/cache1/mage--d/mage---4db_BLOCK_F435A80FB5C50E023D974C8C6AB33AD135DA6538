@@ -1,0 +1,33 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488435816;s:6:"expire";i:1488522216;s:4:"tags";s:23:"4db_BLOCK_HTML,4db_MAGE";}
+
+<div class="widget block block-recent-posts" data-bind="scope: 'recemt-posts'">
+    <div class="block-title">
+        <strong>Recent Posts</strong>
+    </div>
+    <div class="block-content">
+    	            <div class="item">
+                <a class="post-item-link"
+                   href="http://newtype.com.au/blog/post/blog4/">
+                    How To Wear Prints In Winter                </a>
+            </div>
+
+                    <div class="item">
+                <a class="post-item-link"
+                   href="http://newtype.com.au/blog/post/blog1/">
+                    How To Wear Prints In Winter                </a>
+            </div>
+
+                    <div class="item">
+                <a class="post-item-link"
+                   href="http://newtype.com.au/blog/post/blog2/">
+                    How To Wear Prints In Winter                </a>
+            </div>
+
+                    <div class="item">
+                <a class="post-item-link"
+                   href="http://newtype.com.au/blog/post/blog3/">
+                    How To Wear Prints In Winter                </a>
+            </div>
+
+            </div>
+</div>

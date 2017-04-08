@@ -1,0 +1,39 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488430536;s:6:"expire";i:1488434136;s:4:"tags";s:162:"4db_BLOCK_HTML,4db_CATALOG_PRODUCT_36,4db_CATALOG_PRODUCT,4db_CATALOG_PRODUCT_139,4db_CATALOG_PRODUCT_140,4db_CATALOG_PRODUCT_141,4db_CATALOG_PRODUCT_142,4db_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute90">
+                <span>Color</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[90]"
+                        data-selector="super_attribute[90]"
+                        data-validate="{required:true}"
+                        id="attribute90"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+            <div class="field configurable required">
+            <label class="label" for="attribute154">
+                <span>Female Size</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[154]"
+                        data-selector="super_attribute[154]"
+                        data-validate="{required:true}"
+                        id="attribute154"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"90":{"id":"90","code":"color","label":"Color","options":[{"id":"4","label":"Black","products":["139","140","141","142"]}],"position":"0"},"154":{"id":"154","code":"female_size","label":"Female Size","options":[{"id":"30","label":"XS","products":["139"]},{"id":"31","label":"S","products":["140"]},{"id":"32","label":"M","products":["141"]},{"id":"33","label":"L","products":["142"]}],"position":"1"}},"template":"$<%- data.price %>","optionPrices":{"139":{"oldPrice":{"amount":"54.95"},"basePrice":{"amount":"54.95"},"finalPrice":{"amount":"54.95"}},"140":{"oldPrice":{"amount":"54.95"},"basePrice":{"amount":"54.95"},"finalPrice":{"amount":"54.95"}},"141":{"oldPrice":{"amount":"54.95"},"basePrice":{"amount":"54.95"},"finalPrice":{"amount":"54.95"}},"142":{"oldPrice":{"amount":"54.95"},"basePrice":{"amount":"54.95"},"finalPrice":{"amount":"54.95"}}},"prices":{"oldPrice":{"amount":"54.95"},"basePrice":{"amount":"54.95"},"finalPrice":{"amount":"54.95"}},"productId":"36","chooseText":"Choose an Option...","images":{"139":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/s\/h\/shorts-front1_medium__4.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__4.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__4.jpg","caption":"","position":"1","isMain":false}],"140":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/s\/h\/shorts-front1_medium__1_2.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__1_2.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__1_2.jpg","caption":"","position":"1","isMain":false}],"141":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/s\/h\/shorts-front1_medium__2_1.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__2_1.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__2_1.jpg","caption":"","position":"1","isMain":false}],"142":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/s\/h\/shorts-front1_medium__3_1.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__3_1.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/s\/h\/shorts-front1_medium__3_1.jpg","caption":"","position":"1","isMain":false}]},"index":{"139":{"90":"4","154":"30"},"140":{"90":"4","154":"31"},"141":{"90":"4","154":"32"},"142":{"90":"4","154":"33"}}},
+                    "onlyMainImg": false                }
+            }
+        }
+    </script>

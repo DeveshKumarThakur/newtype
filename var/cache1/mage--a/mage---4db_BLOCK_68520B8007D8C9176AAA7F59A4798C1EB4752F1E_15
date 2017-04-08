@@ -1,0 +1,39 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488427281;s:6:"expire";i:1488430881;s:4:"tags";s:162:"4db_BLOCK_HTML,4db_CATALOG_PRODUCT_15,4db_CATALOG_PRODUCT,4db_CATALOG_PRODUCT_124,4db_CATALOG_PRODUCT_123,4db_CATALOG_PRODUCT_125,4db_CATALOG_PRODUCT_126,4db_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute90">
+                <span>Color</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[90]"
+                        data-selector="super_attribute[90]"
+                        data-validate="{required:true}"
+                        id="attribute90"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+            <div class="field configurable required">
+            <label class="label" for="attribute153">
+                <span>Male Size</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[153]"
+                        data-selector="super_attribute[153]"
+                        data-validate="{required:true}"
+                        id="attribute153"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"90":{"id":"90","code":"color","label":"Color","options":[{"id":"4","label":"Black","products":["124","123","125","126"]}],"position":"0"},"153":{"id":"153","code":"male_size","label":"Male Size","options":[{"id":"25","label":"S","products":["124"]},{"id":"26","label":"M","products":["123"]},{"id":"27","label":"L","products":["125"]},{"id":"28","label":"XL","products":["126"]}],"position":"1"}},"template":"$<%- data.price %>","optionPrices":{"124":{"oldPrice":{"amount":"64.95"},"basePrice":{"amount":"64.95"},"finalPrice":{"amount":"64.95"}},"123":{"oldPrice":{"amount":"64.95"},"basePrice":{"amount":"64.95"},"finalPrice":{"amount":"64.95"}},"125":{"oldPrice":{"amount":"64.95"},"basePrice":{"amount":"64.95"},"finalPrice":{"amount":"64.95"}},"126":{"oldPrice":{"amount":"64.95"},"basePrice":{"amount":"64.95"},"finalPrice":{"amount":"64.95"}}},"prices":{"oldPrice":{"amount":"64.95"},"basePrice":{"amount":"64.95"},"finalPrice":{"amount":"64.95"}},"productId":"15","chooseText":"Choose an Option...","images":{"124":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/a\/pantsmale-front_medium__1_6.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_6.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_6.jpg","caption":"","position":"1","isMain":false}],"123":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/a\/pantsmale-front_medium__1_1_1.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_1_1.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_1_1.jpg","caption":"","position":"1","isMain":false}],"125":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/a\/pantsmale-front_medium__1_2_2.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_2_2.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_2_2.jpg","caption":"","position":"1","isMain":false}],"126":[{"thumb":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/thumbnail\/105x142\/beff4985b56e3afdbeabfc89641a4582\/p\/a\/pantsmale-front_medium__1_3_2.jpg","img":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/600x806\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_3_2.jpg","full":"http:\/\/newtype.com.au\/pub\/media\/catalog\/product\/cache\/1\/image\/91a76b549ee944548bb89bb4dd5fcff7\/p\/a\/pantsmale-front_medium__1_3_2.jpg","caption":"","position":"1","isMain":false}]},"index":{"124":{"90":"4","153":"25"},"123":{"90":"4","153":"26"},"125":{"90":"4","153":"27"},"126":{"90":"4","153":"28"}}},
+                    "onlyMainImg": false                }
+            }
+        }
+    </script>
